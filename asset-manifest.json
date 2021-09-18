@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/ltvxdev/static/css/main.38edc60e.chunk.css",
-    "main.js": "/ltvxdev/static/js/main.7fee8c7a.chunk.js",
-    "main.js.map": "/ltvxdev/static/js/main.7fee8c7a.chunk.js.map",
+    "main.js": "/ltvxdev/static/js/main.aac69021.chunk.js",
+    "main.js.map": "/ltvxdev/static/js/main.aac69021.chunk.js.map",
     "runtime-main.js": "/ltvxdev/static/js/runtime-main.65cc5f6f.js",
     "runtime-main.js.map": "/ltvxdev/static/js/runtime-main.65cc5f6f.js.map",
     "static/css/2.818011ed.chunk.css": "/ltvxdev/static/css/2.818011ed.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.818011ed.chunk.css",
     "static/js/2.2727e527.chunk.js",
     "static/css/main.38edc60e.chunk.css",
-    "static/js/main.7fee8c7a.chunk.js"
+    "static/js/main.aac69021.chunk.js"
   ]
 }
