@@ -1,7 +1,8 @@
 const About = () => {
     return (
-        <div className="about">
+        <div className="about align-content-center">
             <h1>Bio</h1>
+        
             <p>
                 Hi I'm a Senior Retail Systems Integrity QA Specialist, busy musician, and budding web developer currently residing in Asbury Park, NJ.
             </p>

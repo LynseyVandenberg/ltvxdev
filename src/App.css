@@ -1,53 +1,69 @@
 body {
   height: 100%;
-  font-weight: 200;
-  font-size: 1.5rem;
-  color: #05386b;
-  background-color: #edf5e1;
-
+  font-weight: 150%;
+  font-size: 1.0rem;
+  color: #7b7b7b;
+  background-image: url("./assets/trees.png");
+  background-size: 2000px;
+  text-align: center;
 }
 
 .about {
+  margin-top: 10%;
   margin-left: 25%;
   margin-right: 25%;
+  background-color: #e6e6e6;
+  border-radius: 15px;
 }
+
 
 .app {
   text-align: center;
 }
 
-.resume {
-  margin-top: 50px;
+.resume img {
+  margin: 10% 10% 10% 10%;
+  background-color: #e6e6e6;
+  border-radius: 15px;
+
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+  }
+
+.resume img:hover {
+  border: 2px solid #93a373;
 }
 
-.reachme {
-  text-align: center;
-  line-height: 150px;
-  height: 150px;
+.contact {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-top: 10%;
 }
 
-header {
-  background-color: #282c34;
+.home {
+  background-color: #e6e6e6;
+  border-radius: 15px;
+  margin-left: 25%;
+  margin-right: 25%;
+  margin-bottom: 25%;
+  margin-top: 10%;
 }
 
 .home img {
-  width: 50%;
+  width: 100%;
   height: auto;
-  margin-bottom: 50px;
+  border-radius: 0 0 16px 15px;
+}
+
+.home:hover {
+  border: 2px solid #93a373;
 }
 
 .navbar {
-  display: flex;
-  justify-content: center;
-  background-color: #379683;
-  padding: 5px;
-  color: #8ee4af;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}
-
-.navbar a:hover {
-  color: #5cdb95;
 }
 
 .navbar a:link {
@@ -55,15 +71,14 @@ header {
 }
 
 .project {
-  margin-top: 50px;
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
 
 .project a img {
   max-width: 400px;
   padding: 50px;
   transition: transform .2s;
-  /* Animation */
-  margin: 0 auto;
 }
 
 .project a img:hover {
@@ -74,7 +89,7 @@ footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-  height: 2.5rem;
-  background: #379683;
-  padding: 5px;
+  height: 3rem;
+  background: #93a373;
+  margin-bottom: 5px;
 }

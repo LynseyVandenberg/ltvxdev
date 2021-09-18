@@ -1,4 +1,3 @@
-// import "./style.css";
 import { Link } from "react-router-dom";
 
 const Home = () => {
@@ -10,7 +9,7 @@ const Home = () => {
                 </h1>
 
             </div>
-            <div className="person">
+            <div className="align-content-sm-center align-middle">
                 <Link to="/about"><img
                     src={`${process.env.PUBLIC_URL}/cover-image.jpg`}
                     alt="person picture"
