@@ -7,7 +7,7 @@ const NavBar = () => {
     return (
 <Navbar bg="light" expand="lg">
   <Container>
-    <Navbar.Brand href="/">Lynsey Vandenberg</Navbar.Brand>
+  <Navbar.Brand href="/">Lynsey Vandenberg</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
