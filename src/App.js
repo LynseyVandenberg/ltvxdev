@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './components/Home/'
 import Footer from './components/Footer/'
 import About from './components/About'
@@ -8,9 +8,10 @@ import Projects from './components/Projects'
 import Resume from './components/Resume'
 import './App.css';
 
+
+
 function App() {
   return (
-    
     <Router>
           <NavBar />
     <div className="app">
