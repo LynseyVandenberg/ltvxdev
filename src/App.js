@@ -15,7 +15,7 @@ function App() {
     <Router>
           <NavBar />
     <div className="app">
-<Router basename={process.env.PUBLIC_URL}>
+<Router basename='https://lynseyvandenberg.github.io/ltvxdev/'>
 <Switch>
   <Route exact path="/" component={Home} />
   <Route path="/about" component={About} />
