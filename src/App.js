@@ -11,11 +11,11 @@ import './App.css';
 
 
 function App() {
-  return (
-    <Router>
-          <NavBar />
-    <div className="app">
-<Router basename='https://lynseyvandenberg.github.io/ltvxdev/'>
+return (      
+<Router basename='https://lynseyvandenberg.github.io/ltvxdev/'>     
+<div className="app">
+
+<NavBar />
 <Switch>
   <Route exact path="/" component={Home} />
   <Route path="/about" component={About} />
@@ -24,10 +24,11 @@ function App() {
   <Route path="/projects" component={Projects} />
 </Switch>
 <Footer />
+</div>
 </Router>
-    </div>
-    </Router>
-  );
+
+
+);
 }
 
 export default App;
