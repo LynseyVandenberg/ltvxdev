@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './components/Home/'
 import Footer from './components/Footer/'
 import About from './components/About'
-import NavBar from './components/NavBar/'
 import Contact from './components/Contact'
 import Projects from './components/Projects'
 import Resume from './components/Resume'
@@ -18,7 +17,7 @@ class App extends Component {
       <BrowserRouter basename={process.env.PUBLIC_URL}>
         <div>
           <Header/>
-          <NavBar/>
+          {/* <NavBar/> */}
           <Switch>
             <Route path="/" component={Home} exact /> 
             <Route path="/about" component={About} />
