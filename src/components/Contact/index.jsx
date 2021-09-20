@@ -1,4 +1,4 @@
-import { Card, Button, Form, Row, Col, FloatingLabel } from 'react-bootstrap';
+import { Button, Form, Col, } from 'react-bootstrap';
 
 const Contact = () => {
     return (

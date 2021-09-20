@@ -20,12 +20,13 @@ class App extends Component {
           <Header/>
           <NavBar/>
           <Switch>
-            <Route path="/" component={Home} exact />
+            <Route path="/" component={Home} exact /> 
             <Route path="/about" component={About} />
             <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
             <Route path="/projects" component={Projects} />
             <Route component={Error} />
+
           </Switch>
         </div>
         <Footer></Footer>
