@@ -1,5 +1,7 @@
 # 20. React Challenge: React Portfolio
 
+![image](https://user-images.githubusercontent.com/81693557/134034118-4b48b7fd-87ee-48c1-a1f6-6399cc7a3ca7.png)
+
 ## User Story
 AS AN employer looking for candidates with experience building single-page applications I WANT to view a potential employee's deployed React portfolio of work samples SO THAT I can assess whether they're a good candidate for an open position.
 
@@ -29,3 +31,6 @@ AS AN employer looking for candidates with experience building single-page appli
 * THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 * WHEN I view the footer
 * THEN I am presented with text or icon links to the developer’s GitHub and LinkedI
+
+[DEMO](https://github.com/LynseyVandenberg/ltvxdev/blob/main/src/assets/react-portfolio.gif?raw=true)
+
