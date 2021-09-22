@@ -77,6 +77,8 @@ body {
 
 .project a img {
   max-width: 400px;
+  height: 350px;
+  width: 400px;
   padding: 50px;
   transition: transform .2s;
 }
